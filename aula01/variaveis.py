@@ -1,9 +1,9 @@
-'''Exercicio: Criar um sistema com, seu nome, sua idade e data de nascimento'''
+#Exercicio: Criar um sistema com, seu nome, sua idade e data de nascimento
 nome = "Samuel Souza Aguiar"
 idade = 16
 nome3 = 2008
 print('Ola, me chamo', nome,"tenho", idade, "anos e nasci em ", nome3)
-'''tipos de variaveis'''
+# tipos de variaveis
 nome = "Samuel"
 idade = 25
 altura = 1.75
@@ -15,7 +15,7 @@ print("O nome da variavel ativo é: ", type(ativo))
 print()
 
 
-'''print(30*"-", "operadores", 30*"-")
+print(30*"-", "operadores", 30*"-")
 #operadores
 num1 = 20
 numero2 = 4
@@ -58,11 +58,11 @@ print("ano decrecido de -1: " , ano)
 print(30*"-", "Entrada de dados", 30*"-")
 
 nome_usario = input("Digite o seu nome: ")
-print('Seja bem-vindo ao sistema python', nome_usario)'''
+print('Seja bem-vindo ao sistema python', nome_usario)
 print()
 print(30*"-", "Calculadora", 30*"-")
 
-'''numero1 = int(input("Digite o primeiro numero: "))
+numero1 = int(input("Digite o primeiro numero: "))
 numero2 = int(input("Digite o segundo numero: "))
 #tipos de dados
 # float 
@@ -80,11 +80,11 @@ print('Resultado da multiplicação', numero1, "*", numero2, "é: ", mult)
 print('Resultado da subtração', numero1, "-", numero2, "é: ", sub)
 print('Resultado da divisao inteira', numero1, "/", numero2, "é: ", divisao_inteira)
 print("Resultado do expoente é: ", expoente)
-# quandp eu passo um input ele automaticamente ele vem "str" (um texto)'''
+# quandp eu passo um input ele automaticamente ele vem "str" (um texto)
 print()
 print(30*"-", "Convertendo tipo de dados", 30*"-")
 
-'''ano_nascimento = input("Digite seu ano de nascimento: ")
+ano_nascimento = input("Digite seu ano de nascimento: ")
 print(type(ano_nascimento))
 # convertendo para inteiro
 ano_nascimento = int(ano_nascimento)
@@ -97,5 +97,5 @@ print(20*'-', 'Dados pessoais', 20*'-')
 print("Nome: ", saudacao)
 print("Cpf: ", cpf)
 print("Telefone: ", telefone)
-# Forma de login, dados pessoais'''
+# Forma de login, dados pessoais
 

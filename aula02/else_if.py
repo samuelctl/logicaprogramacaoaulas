@@ -51,7 +51,7 @@ else:
    print(20*'=')
    print(f'Média: {media}')'''
 
-'''# variaveis 
+# variaveis 
 nome = 'João'
 idade1 = 11
 altura = 1.25
@@ -60,16 +60,10 @@ altura = 1.25
 if idade1 >= 12 and altura >= 1.2:
    print(f'A entrada de {nome} está autorizada.')
 else:
-   print(f'A entrad de {nome} não está autorizada.')'''
+   print(f'A entrad de {nome} não está autorizada.')
 
 # operador ternário
 nome = 'alex'
 idade = 39
 print(nome, 'é maior de idade.' if idade >= 18 else 'é menos de idade.')
-
-
-
-
-   
-
-
+#SECTION - Operador importante para mobile, if e else em uma linha só

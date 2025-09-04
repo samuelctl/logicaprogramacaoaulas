@@ -70,9 +70,9 @@ def menu():
         case '6':
             encerrar()
 def sair():
-    exit()
     print('-'*20, "Saindo do sistema...",20*'-')
-
+    exit()
+    
 while True:
     menu()
     

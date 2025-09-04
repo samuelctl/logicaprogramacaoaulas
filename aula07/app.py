@@ -19,6 +19,9 @@ while True:
     match opcao:
         case '1':
             print(f'Nome:{nome}\nIdade:{cadastro}\nSaldo:{saldo}')
+        case '2':
+            print(f'')
+
 
 
 

@@ -29,12 +29,12 @@ while True:
         case '2':
             novo_arquivo = input('Informe o nome do arquivo: ').strip().lower()
             if novo_arquivo:
-                with open(f'Aula06/{novo_arquivo}.json', 'r', encoding='utf-8') as f:
+                with open(f'aula06/{novo_arquivo}.json', 'r', encoding='utf-8') as f:
                     dados_existentes = json.load(f)
             
             dados_existentes.extend(usuarios)
 
-            with open(f'Aula06/{novo_arquivo}.json', 'w', encoding='utf-8') as f:
+            with open(f'aula06/{novo_arquivo}.json', 'w', encoding='utf-8') as f:
                 json.dump(usuarios, f, ensure_ascii=False, indent=4)
             limpar()
             print('Arquivo salvo com sucesso! ')
@@ -42,7 +42,7 @@ while True:
         case '3':
             if not novo_arquivo:
                 novo_arquivo = input('Digite o nome do arquivo: ').strip().lower()
-            with open(f'Aula06/{novo_arquivo}.json', 'r', encoding='utf-8') as f:
+            with open(f'aula06/{novo_arquivo}.json', 'r', encoding='utf-8') as f:
                 dados = json.load(f)
 
             print(f'{'-'*20} USUARIOS {'-'*20}\n')

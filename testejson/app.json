@@ -1,0 +1,14 @@
+{
+    "livros": [
+        {
+            "nome": "Eu",
+            "autor": "Samuel",
+            "genero": "Terror"
+        },
+        {
+            "nome": "Leo",
+            "autor": "Sma",
+            "genero": "Terror"
+        }
+    ]
+}
